@@ -1,1 +1,110 @@
 /* your code here */
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:lightsteelblue
+}
+.product{
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#fff;
+  border-radius: 5px;
+	
+}
+.photo-container{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width:250px;
+	border-radius:10px;
+	margin-left:-20px;
+}
+.photo-main{
+    background-color: #A3E419;
+     border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+	padding:10px;
+	color:white;
+}
+
+.photo-main img{
+	 width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-left: -50px;
+}
+.photo-album{
+	background-color:white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.photo-album ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.photo-album ul li img{
+	 width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #bdbcbc;
+}
+.product__info{
+  margin-left: 10px;
+  padding: 10px;
+}
+.title h1{
+	 margin-bottom: 20px;
+}
+.price{
+	color: #ec3a3a;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.variant h3{
+	  margin-bottom: 10px;
+    font-weight: bold;
+}
+.variant ul{
+	display:flex;
+	list-style:none;
+}
+.variant ul li img{
+	  width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px solid #bdbcbc;
+    border-radius: 5px;
+}
+.description{
+	margin-top:20px;
+	padding:10px;
+}
+.description h3{
+	 font-weight: bold;
+    margin-bottom: 10px;
+}
+.add-to-cart{
+	 margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ec3a3a;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
